@@ -87,11 +87,11 @@ data_root = '../../SSD/PlieCNR'
 
   In Lightroom (v3.x only), make sure that the *"Exposure"* and *"Brightness"* tags under *"Develop"* module are set to zero for both the original and the retouched images:
 
-  ![image-20220322124857286](C:\Users\Skuais\Documents\GitHub\LowlightENR\README.assets\image-20220322124857286.png)
+  ![image-20220322124857286](README.assets/image-20220322124857286.png)
 
   The settings of white balance is a bit more complicated: select all images under the preferred expert's tag, then click *"Settings"*→*"Copy Settings"*; after that navigate to the original images and apply the copied settings by clicking *"Sync Settings"*, this will take a while to complete:
 
-  <img src="C:\Users\Skuais\Documents\GitHub\LowlightENR\README.assets\image-20220322130014904.png" alt="image-20220322130014904" style="zoom: 67%;" />
+  <img src="README.assets/image-20220322130014904.png" alt="image-20220322130014904" style="zoom:67%;" />
 
   Finally, export both the original and the retouched pairs as 16bit sRGB images to your dataset folder. You need to run *"/datasets/processFivek.ipynb"* to generate a smaller dataset to accelerate training.
 
