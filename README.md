@@ -91,7 +91,7 @@ data_root = '../../SSD/PlieCNR'
 
   The settings of white balance is a bit more complicated: select all images under the preferred expert's tag, then click *"Settings"*→*"Copy Settings"*; after that navigate to the original images and apply the copied settings by clicking *"Sync Settings"*, this will take a while to complete:
 
-  <img src="README.assets/image-20220322130014904.png" alt="image-20220322130014904" style="zoom:67%;" />
+  ![image-20220322130014904](README.assets/image-20220322130014904.png)
 
   Finally, export both the original and the retouched pairs as 16bit sRGB images to your dataset folder. You need to run *"/datasets/processFivek.ipynb"* to generate a smaller dataset to accelerate training.
 
