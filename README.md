@@ -63,7 +63,7 @@ The main contributions of this work are as follows:
    save_root = './results'	# result path
    ```
 
-   *This repository provides noise models of 4 devices as referred to the original paper. You need to run the noise model estimation script for other camera models not in the list (see next section).
+   *This repository provides pre-trained models of 4 devices as referred to the original paper. For other cameras not in the list you need to run the noise model estimation script (see next section).
 
 
 
