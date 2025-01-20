@@ -18,6 +18,12 @@ If you find it useful in your research, please consider citing the following pap
 
 
 
+### Updates:
+
+2025-01-20: We uploaded the camera noise model files, and now run-demo.ipynb should be executable without errors.
+
+
+
 ### Introduction
 
 The main contributions of this work are as follows:
